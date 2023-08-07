@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{ host[$1]++ } END { for (i in host) { if (host[i] > host[11]) { print i, host[i] } } }' < webserver_logs.tsv
