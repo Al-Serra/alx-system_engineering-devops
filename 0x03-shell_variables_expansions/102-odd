@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d"\n" | grep -A 1 '^'
+printf -d"\n" | grep -A 1 '^'
