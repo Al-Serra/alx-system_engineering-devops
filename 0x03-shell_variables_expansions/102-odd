@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -line 'printf $%2==1'
+printf -d"\n" - | grep -A 1 
